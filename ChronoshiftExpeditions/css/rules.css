@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+  }
+  
+  body{
+  line-height: 1;
+  }
+  
+  .navlinks{
+  display: flex;
+  background-color: cornflowerblue;
+  justify-content: flex-end;
+  justify-content: safe;
+  justify-content: space-around;   
+  }
+  
+  [class^="box"] {
+    color:black;
+    font-size: 35px;
+    text-align: center;
+    padding: 16.4px;
+  }
+  
+  .box1 {background-color: cornflowerblue;}
+  .box2 {background-color: cornflowerblue;}
+  .box3 {background-color: cornflowerblue;}
+  .box4 {background-color: cornflowerblue;}
+  
+  a:visited{
+  color: black;
+  }
+  
+  a:active{
+  color: purple;
+  }
+  .CompanyLogo{
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-start;
+    width: 5vw;
+    height: 5vh;
+    }
+    .CompanyLogo{
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-start;
+    justify-content: left;
+    }
+    .CompanyLogo{
+    border-radius: 50%;    
+    }
+        
+    .CompanyLogo{
+    position: relative;
+    }
+        
+    .CompanyLogo img{
+    width: 100px;
+    height: 70px;
+    position: absolute;
+    bottom: 51px;   
+    }
+  
+  .Banner{
+  margin-top: 0 auto;
+  }
+  
+  .Blocks{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 2rem;
+  justify-content: space-between;
+  font-weight:bolder;
+  font-size: 2rem;
+  padding: 15px;
+  list-style-type: none;
+  }
+  
+  .Background-Image{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  max-width: 2000px;
+  margin-bottom: 2rem;
+  }
+  
+  body{
+  background-color: white;
+  height: auto;
+  width: auto;
+  }
+  
+  footer{
+  background-color: grey;
+  display: block;
+  padding: 10px;
+  }
+    

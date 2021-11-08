@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+  }
+  
+  body{
+  line-height: 1;
+  }
+  
+  .navlinks{
+  display: flex;
+  background-color: cornflowerblue;
+  justify-content: flex-end;
+  justify-content: safe;
+  justify-content: space-around;   
+  }
+  
+  [class^="box"] {
+    color:black;
+    font-size: 35px;
+    text-align: center;
+    padding: 16.4px;
+  }
+  
+  .box1 {background-color: cornflowerblue;}
+  .box2 {background-color: cornflowerblue;}
+  .box3 {background-color: cornflowerblue;}
+  .box4 {background-color: cornflowerblue;}
+  
+  a:visited{
+  color: black;
+  }
+  
+  a:active{
+  color: purple;
+  }
+
+   
+  .CompanyLogo{
+  display: flex;
+  justify-content: flex-start;
+  align-content: flex-start;
+  width: 5vw;
+  height: 5vh;
+  }
+  .CompanyLogo{
+  display: flex;
+  justify-content: flex-start;
+  align-content: flex-start;
+  justify-content: left;
+  }
+  .CompanyLogo{
+  border-radius: 50%;    
+  }
+      
+  .CompanyLogo{
+  position: relative;
+  }
+      
+  .CompanyLogo img{
+  width: 100px;
+  height: 70px;
+  position: absolute;
+  bottom: 51px;   
+  }
+  
+  .Why-TSI h1{
+  font-size: 2.5rem;
+  font-weight: Bold;
+  background-color: cornflowerblue;
+  width: 570px;
+  padding: 5px;
+  }
+  
+  .Why-TSI{
+    width: 570px;
+  }
+  
+  .Team-Members h2{
+  font-size: 2rem;
+  font-weight: bold;
+  background-color: cornflowerblue;
+  width: 570px;
+  padding: 5px;
+  }
+  
+  .Team-Members{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 4rem;
+  flex-direction: column;
+  margin-bottom: 0;
+  }
+  
+  .Member{
+  display: block;
+  border-radius: 2px 1px 1px;
+  justify-content: space-between;
+  box-shadow: black 1px 0px 1px;
+  width: 500px;
+  padding: 10px;
+  margin: 10px;
+  font-weight:bold;
+  background-color: whitesmoke;
+  }
+  
+  .Time-Mach h2{
+  font-size: 2.1em;
+  font-weight: bold;
+  background-color: cornflowerblue;
+  width: 570px;
+  flex-direction: flex-end;
+  display: flex;
+  padding: 5px;
+  }
+  
+  .Time-Mach{
+  position: absolute;
+  left: 1400px;
+  top: 920px;
+  }
+  
+  .History h2{
+  font-size: 2.1em;
+  font-weight: bold;
+  background-color: cornflowerblue;
+  width: 570px;
+  flex-direction: flex-end;
+  display: flex; 
+  padding: 5px;
+  }
+  
+  .History {
+  position: absolute;
+  left: 1400px;
+  top: 1900px;
+  width: 470px;
+  }
+  
+  body{
+  background-color: white;
+  height: auto;
+  width: auto;
+  }
+  
+  footer{
+  background-color: grey;
+  display: block;
+  margin: 10px;
+  }
+  

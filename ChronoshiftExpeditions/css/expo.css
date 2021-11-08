@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+line-height: 1;
+}
+
+.navlinks{
+display: flex;
+background-color: cornflowerblue;
+justify-content: flex-end;
+justify-content: safe;
+justify-content: space-around;
+position: sticky;
+}
+
+[class^="box"] {
+  color:black;
+  font-size: 35px;
+  text-align: center;
+  padding: 16.4px;
+}
+
+.box1 {background-color: cornflowerblue;}
+.box2 {background-color: cornflowerblue;}
+.box3 {background-color: cornflowerblue;}
+.box4 {background-color: cornflowerblue;}
+
+a:visited{
+color: black;
+}
+
+a:active{
+  color: purple;
+}
+.CompanyLogo{
+display: flex;
+justify-content: flex-start;
+align-content: flex-start;
+width: 5vw;
+height: 5vh;
+}
+  
+.CompanyLogo{
+display: flex;
+justify-content: flex-start;
+align-content: flex-start;
+justify-content: left;
+}
+.CompanyLogo{
+border-radius: 50%;
+}
+    
+.CompanyLogo{
+position: relative;
+}
+    
+.CompanyLogo img{
+width: 100px;
+height: 70px;
+position: absolute;
+bottom: 51px;   
+}
+
+
+.Expos{
+  display: flex;
+flex-direction: row; 
+flex-wrap: wrap;
+max-width: 1900px;
+justify-content: space-between;
+margin: 15px 200px 15px;
+padding: 30px 80px 30px;
+}
+
+.Expo-Box{
+display: block;
+max-width: 450px;
+border-radius: 3px 2px 3px;
+padding: 0.5rem;
+box-shadow: black 2px 1px 2px;
+list-style: none;
+margin: 15px;
+background-color: whitesmoke;
+}
+
+footer{
+background-color: grey;
+display: block;
+padding: 10px;
+}
+      
